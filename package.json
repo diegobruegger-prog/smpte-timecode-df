@@ -1,0 +1,13 @@
+{
+  "name": "smpte-timecode-df",
+  "version": "1.0.0",
+  "description": "SMPTE timecode math with correct drop frame (29.97 DF, 59.94 DF): timecode to frames, add, subtract, convert rates. Zero dependencies.",
+  "type": "module",
+  "main": "timecode.js",
+  "exports": "./timecode.js",
+  "scripts": { "test": "node test.mjs" },
+  "keywords": ["timecode", "smpte", "drop-frame", "29.97", "video", "editing", "frames", "ntsc"],
+  "homepage": "https://shortformkit.com/timecode-calculator/",
+  "license": "MIT",
+  "author": "Diego Brügger (https://shortformkit.com/about/)"
+}
